@@ -2,7 +2,10 @@ package basics;
 
 public class Datatypes {
     // main method is the entry pint into a class / application
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
+
+        // primitive data types
 
         // numeric types
         byte age = 50;
@@ -19,6 +22,10 @@ public class Datatypes {
         char c = 'a'; // assigning a character literal
         char x = 97; // assigning a ascii value to char type
         char u = '\u0024';
+
+        // boolean
+        boolean isValid = true;
+        boolean isGood = false;
 
         // print the variable values
         System.out.println(age);
