@@ -41,3 +41,16 @@ public class Datatypes {
 
     }
 }
+
+/*
+ * primitive types in java
+ * 
+ * byte
+ * short
+ * int
+ * long
+ * float
+ * double
+ * char
+ * boolean
+ */
