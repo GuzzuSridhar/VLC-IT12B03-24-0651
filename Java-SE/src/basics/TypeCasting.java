@@ -19,7 +19,7 @@ public class TypeCasting {
         System.out.println(d);
 
         // example of a narrowing cast
-        double dub = 42.45;
+        double dub = 428888888.45;
         int i = (int) dub;
         System.out.println(i);
 
