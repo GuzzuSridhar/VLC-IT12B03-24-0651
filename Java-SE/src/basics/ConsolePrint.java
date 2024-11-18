@@ -14,6 +14,6 @@ public class ConsolePrint {
 
         // concatenate information
         byte age = 25;
-        System.out.println("\n" + "Hello, My age is " + age);
+        System.out.println("\n" + "Hello, My age is " + age); // \n is an escape character to infuse new line
     }
 }

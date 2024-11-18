@@ -17,3 +17,28 @@ public class Variables {
 
     }
 }
+
+// naming rules for variables
+/*
+ * pascal case
+ * must start with
+ * a letter (alphabet)
+ * _ (underscore)
+ * dollar sign ($)
+ * 
+ * It can inclued
+ * alphabets
+ * numbers
+ * _ (underscore)
+ * 
+ * Are case sensitive
+ * age is not same as Age
+ * 
+ * Reveserved words not allowed
+ * like
+ * class
+ * int
+ * main
+ * List of all reserved words
+ * https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+ */
