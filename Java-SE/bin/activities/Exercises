@@ -3,3 +3,14 @@
    b. salary between 3000 and 4999 -> increment of 6%
    c. salary < 3000 -> increment 7%
    display the old salary and the incremented salary
+
+2. Accept a string from the user and print its reverse
+3. Find if a given string is a palindrome?
+4. Accept a number from the user and check if it is a prime number.
+5. Print all prime numbers between 1 and 100.
+6. Generate a fibonacci series of 15 terms.
+7. print all odd numbers between 1 and 100.
+8. print all even numbers between 1 and 100.
+9. print the number of vowels and consonants in a given string.
+10. print the sum of first N natural numbers, where N is a user input.
+
