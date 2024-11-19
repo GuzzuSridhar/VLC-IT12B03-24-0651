@@ -18,6 +18,26 @@ public class StringType {
         System.out.println(name.toUpperCase()); // converts to small letters
         System.out.println(name.toLowerCase()); // converts to capital letters
 
+        name = "Big string as possible to test substring";
+
+        System.out.println(name.substring(2)); // returns the string from character 3
+        // the end index is ignored
+        System.out.println(name.substring(4, 10)); // returns the string from character 3 to character 4
+
+        name = "Alex";
+        String anotherName = "alex";
+        // check for the string equality
+        System.out.println(name.equals(anotherName));
+        System.out.println(name.equalsIgnoreCase(anotherName)); // case insensitive check
+
+        // concat
+        System.out.println(name.concat(", Is my name"));
+
+        // trim
+        name = "  Alex   ";
+        System.out.println(name.length());
+        System.out.println(name.trim().length());
+
     }
 
 }
