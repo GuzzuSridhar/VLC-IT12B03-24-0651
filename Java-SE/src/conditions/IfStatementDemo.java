@@ -27,5 +27,18 @@ public class IfStatementDemo {
         else if (name.equalsIgnoreCase(anotherName))
             System.out.println("names are the same with different case");
 
+        // using the else
+        if (x == y)
+            System.out.println("good");
+        else if (x < y)
+            System.out.println("bad");
+        else
+            System.out.println("ugly");
+
+        // using conditions with booeans
+        boolean isValid = true;
+        if (isValid)
+            System.out.println("Is Valid statement");
     }
+
 }

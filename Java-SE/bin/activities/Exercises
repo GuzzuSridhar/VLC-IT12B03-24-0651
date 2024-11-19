@@ -1,0 +1,5 @@
+1. Accept a users salary and based the following test incrememt the salary accordingly
+   a. salary > 5000 -> increment of 5%
+   b. salary between 3000 and 4999 -> increment of 6%
+   c. salary < 3000 -> increment 7%
+   display the old salary and the incremented salary
