@@ -3,7 +3,6 @@ package basics;
 public class FormatPrint {
     public static void main(String[] args) {
         String fname = "David";
-        String lname = "Boon";
         int age = 45;
         String loc = "Singapore";
 
@@ -15,7 +14,6 @@ public class FormatPrint {
         System.out.printf("%10s %2d %20s \n", fname, age, loc);
 
         fname = "Ben";
-        lname = "Boon";
         age = 25;
         loc = "Kl";
         System.out.printf("%10s %2d %20s \n", fname, age, loc);
@@ -25,9 +23,10 @@ public class FormatPrint {
         System.out.printf("%-10s %-2d %-20s \n", fname, age, loc);
 
         fname = "David";
-        lname = "Boon";
         age = 25;
         loc = "Singapore";
         System.out.printf("%-10s %-2d %-20s \n", fname, age, loc);
+
+        System.out.printf("\u001B[32m %-10s %-2d %-20s  \u001B[0m \n", fname, age, loc);
     }
 }
