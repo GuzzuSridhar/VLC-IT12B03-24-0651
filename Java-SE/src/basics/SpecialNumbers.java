@@ -13,6 +13,5 @@ public class SpecialNumbers {
         // hexadecimal numbers (base 16)
         int hex = 0xAA;
         System.out.println("the integer equivivalent of '0xAA' is : " + hex);
-
     }
 }
