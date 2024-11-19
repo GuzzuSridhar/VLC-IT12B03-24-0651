@@ -13,4 +13,7 @@
 8. print all even numbers between 1 and 100.
 9. print the number of vowels and consonants in a given string.
 10. print the sum of first N natural numbers, where N is a user input.
+11. Check if a number is a Armstrong number 
+   (For a number with 𝑛 digits, if the sum of each of its digits raised to the power 𝑛 equals the number itself, 
+   then it is an Armstrong number.) example 153 
 
