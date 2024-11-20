@@ -1,6 +1,5 @@
 package classesandobjects.employee;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class EmpList {
