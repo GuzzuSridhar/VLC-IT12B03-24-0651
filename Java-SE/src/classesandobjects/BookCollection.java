@@ -29,6 +29,10 @@ public class BookCollection {
         books[2].numberOfPages = 187;
 
         // access the book collection in the arrays
+
+        System.out.println("List of the Books available in the " + Book.libraryName);
+        System.out.println("---------------------------------------------");
+
         for (Book book : books) {
             System.out.println(book.title + " " + book.author + " " + book.yearOfPublication);
         }
