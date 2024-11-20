@@ -23,5 +23,26 @@ public class Loops {
         for (int i : nums) {
             System.out.println(i);
         }
+
+        // looping multi dimentional array
+        int[][] table = new int[3][3]; // create a blank array of 3 rows and 3 columns
+
+        // put in the values to the elements
+        table[0][0] = 1;
+        table[0][1] = 2;
+        table[0][2] = 3;
+        table[1][0] = 4;
+        table[1][1] = 5;
+        table[1][2] = 6;
+        table[2][0] = 7;
+        table[2][1] = 8;
+        table[2][2] = 9;
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(table[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
