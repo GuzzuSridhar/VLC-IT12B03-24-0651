@@ -1,0 +1,9 @@
+1. Arrays are of fixed size
+2. The size of an array has to be defined at the time of instantiation.
+3. Every Array has a 0 based index
+4. methods to work with Arrays (perform CRUD operations)
+5. An exception is raised when a non exitent element is accessed
+6. the type for an array can be primitive or object type.
+
+7. Syntax
+   <Datatype>[] <variable_name> = {comma seperated values};
