@@ -1,6 +1,7 @@
 package arrays;
 
 public class ArrayWorking {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // decalre and assign values
         // the names array below has 5 as its size
