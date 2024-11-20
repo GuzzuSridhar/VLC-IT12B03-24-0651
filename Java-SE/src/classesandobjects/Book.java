@@ -14,3 +14,6 @@ public class Book { // creating the blueprint
 }
 
 // not mandatory to have main method
+
+// static var (keyword static)
+// instance var (no keyword)
