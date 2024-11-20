@@ -1,0 +1,7 @@
+Methods can be instance or Static
+Methods can return values or void if no return statement
+
+Syntax
+<access modifier> <returntype> <name>(<parameters){
+    ---
+}
