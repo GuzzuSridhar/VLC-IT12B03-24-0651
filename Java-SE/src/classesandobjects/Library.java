@@ -31,7 +31,9 @@ public class Library {
                 + " "
                 + b001.numberOfPages
                 + " "
-                + b001.genre);
+                + b001.genre
+                + " "
+                + Book.libraryName);
         // access the information of b002
         System.out.println(b002.title
                 + " "
@@ -41,7 +43,9 @@ public class Library {
                 + " "
                 + b002.numberOfPages
                 + " "
-                + b002.genre);
+                + b002.genre
+                + " "
+                + Book.libraryName);
 
     }
 }
