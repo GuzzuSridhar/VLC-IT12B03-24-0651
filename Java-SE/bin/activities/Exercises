@@ -17,3 +17,11 @@
    (For a number with 𝑛 digits, if the sum of each of its digits raised to the power 𝑛 equals the number itself, 
    then it is an Armstrong number.) example 153 
 
+Arrays
+-----------
+1. Find the sum of numbers in the Arrays
+2. Find the average of numbers in the Arrays
+3. Find the max value of a array
+4. Find the min value of a array
+5. Fin the frequency of a each element in an array.
+
