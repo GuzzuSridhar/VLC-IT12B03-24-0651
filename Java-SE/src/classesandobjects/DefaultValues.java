@@ -10,6 +10,7 @@ public class DefaultValues {
     double d;
     char c;
     boolean bool;
+    String str;
 
     public static void main(String[] args) {
         DefaultValues df = new DefaultValues();
@@ -23,6 +24,7 @@ public class DefaultValues {
         System.out.println("The default value for double type is: " + df.d);
         System.out.println("The default value for char type is: " + df.c); // '\u0000' is an invisible character
         System.out.println("The default value for boolean type is: " + df.bool);
+        System.out.println("The default value for String type is: " + df.str);
     }
 
 }
