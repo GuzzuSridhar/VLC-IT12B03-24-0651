@@ -1,5 +1,7 @@
 package encapsulation;
 
+import java.util.Scanner;
+
 public class BankAccount {
     private int id;
     private String name;
@@ -26,7 +28,14 @@ public class BankAccount {
     }
 
     public void setBalance(float balance) {
-        this.balance = balance;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter password");
+        String pass = scan.nextLine();
+        if (pass.equals("password"))
+            this.balance = balance;
+        else
+            System.out.println("Not authorized");
+        scan.close();
     }
 
     @Override
