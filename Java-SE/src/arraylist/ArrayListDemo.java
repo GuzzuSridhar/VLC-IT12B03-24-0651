@@ -42,9 +42,41 @@ public class ArrayListDemo {
         System.out.println(nums.size()); // the # elements in the list
         System.out.println("----------");
 
-        // set and get
+        // set
         names.set(0, "Alice");
         getNames();
+        System.out.println("----------");
+
+        // get
+        System.out.println(names.get(names.size() - 1));
+        System.out.println(names.get(3));
+
+        System.out.println("----------");
+        // remove
+        names.remove(1);
+        getNames();
+        System.out.println("----------");
+
+        // exists
+        boolean doesExist = names.contains("Alex");
+        System.out.println(doesExist);
+        System.out.println("----------");
+
+        // indexOf
+        int idx = names.indexOf("Alicefg");
+        System.out.println(idx); // returns index of the element or -1 if not present otherwise the index
+        System.out.println("----------");
+
+        // isEmpty
+        boolean isEmpty = names.isEmpty();
+        System.out.println(isEmpty);
+        System.out.println("----------");
+
+        // clear the list
+        names.clear();
+        System.out.println("----------");
+        getNames();
+        System.out.println("----------");
 
     }
 
