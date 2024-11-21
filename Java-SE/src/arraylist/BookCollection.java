@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class BookCollection {
     static ArrayList<Book> books = new ArrayList<>();
     static Scanner scan = new Scanner(System.in);
+    static int choice;
 
     static void getBookList() {
         for (Book book : books) {
@@ -13,11 +14,7 @@ public class BookCollection {
         }
     }
 
-    static void addBook(Book b) {
-        books.add(b);
-    }
-
-    public static void main(String[] args) {
+    static void addBook() {
         boolean more = false;
         String name = "", auth = "", temp = "";
         int id = 0;
@@ -30,7 +27,7 @@ public class BookCollection {
             name = scan.nextLine();
             System.out.print("Enter a Book Author: ");
             auth = scan.nextLine();
-            addBook(new Book(id, name, auth));
+            books.add(new Book(id, name, auth));
             System.out.print("Do you want to add more books? ([Y]es)/[N]o :");
             temp = scan.nextLine();
             if (temp.equalsIgnoreCase("Y"))
@@ -38,11 +35,47 @@ public class BookCollection {
             else if (temp.equalsIgnoreCase("N"))
                 more = true;
         }
+    }
 
-        getBookList();
+    static void menu() {
+        System.out.println("1. Display Books.");
+        System.out.println("2. Add Books.");
+        System.out.println("3. Search Book.");
+        System.out.println("4. update Book detail.");
+        System.out.println("5. Exit.");
 
-        scan.close();
+        System.out.println("Choose from the options below");
+        choice = scan.nextInt();
+        scan.nextLine();
+        showMenu(choice);
+    }
 
+    static void showMenu(int ch) {
+        switch (choice) {
+            case 1:
+                getBookList();
+                menu();
+                break;
+            case 2:
+                addBook();
+                menu();
+                break;
+            case 3:
+                System.out.println("Yet to be implemented");
+                menu();
+                break;
+            case 4:
+                System.out.println("Yet to be implemented");
+                menu();
+                break;
+            case 5:
+                scan.close();
+                System.exit(0);
+        }
+    }
+
+    public static void main(String[] args) {
+        menu();
     }
 
 }
