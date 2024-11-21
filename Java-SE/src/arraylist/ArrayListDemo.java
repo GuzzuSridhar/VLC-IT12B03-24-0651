@@ -63,7 +63,7 @@ public class ArrayListDemo {
         System.out.println("----------");
 
         // indexOf
-        int idx = names.indexOf("Alicefg");
+        int idx = names.indexOf("Alice");
         System.out.println(idx); // returns index of the element or -1 if not present otherwise the index
         System.out.println("----------");
 
