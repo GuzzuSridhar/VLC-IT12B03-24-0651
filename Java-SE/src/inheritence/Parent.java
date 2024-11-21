@@ -14,11 +14,11 @@ public class Parent {
     }
 
     void favFood() {
-        System.out.println("fish");
+        System.out.println("Parent loves fish");
     }
 
     void occupation() {
-        System.out.println("Employee");
+        System.out.println("Parent is an Employee");
     }
 
 }
