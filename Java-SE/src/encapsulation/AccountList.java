@@ -17,5 +17,8 @@ public class AccountList {
         System.out.println(bankAccount.getId());
         System.out.println(bankAccount.getName());
         System.out.println(bankAccount.getBalance());
+
+        // print the object using the toString
+        System.out.println(bankAccount); // calls the toString method on the class
     }
 }
