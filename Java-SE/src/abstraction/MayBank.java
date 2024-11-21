@@ -1,6 +1,6 @@
 package abstraction;
 
-public class MayBank implements Mas { // class implementing the interface
+public class MayBank implements Mas, Govt { // class implementing the interface
 
     @Override
     public void archive(int acctno) {
@@ -18,6 +18,15 @@ public class MayBank implements Mas { // class implementing the interface
     // other methods in this class
     void welcome() {
         System.out.println("Welcome to mayBank");
+    }
+
+    @Override
+    public void someAbstract() {
+        System.out.println("Govt Rule implemented");
+    }
+
+    @Override
+    public void newAbstract() {
     }
 
 }

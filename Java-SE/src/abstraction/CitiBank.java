@@ -20,4 +20,8 @@ public class CitiBank implements Mas {
         System.out.println("Hello");
     }
 
+    @Override
+    public void newAbstract() {
+    }
+
 }

@@ -9,4 +9,15 @@ public interface Mas {
 
     float fdInterest(float depAmt, int period);
 
+    // static method are concrete in a interface
+    static void closeAcct(int acctno) {
+        System.out.println("Account closed");
+    }
+
+    void newAbstract();
+
+    // default methods will be concrecete
+    default void moreAbstracts() {
+    }
+
 }
