@@ -19,7 +19,7 @@ public class Bank {
     public Bank() {
     }
 
-    // fully loaded constructor
+    // fully loaded constructor (overloaded)
     public Bank(int acctId, String acctName, float balance) {
         this.acctId = acctId;
         this.acctName = acctName;
