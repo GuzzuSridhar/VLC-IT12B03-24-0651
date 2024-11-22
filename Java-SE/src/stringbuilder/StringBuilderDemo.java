@@ -36,5 +36,8 @@ public class StringBuilderDemo {
 
         // substring method
         System.out.println(greet.substring(0, 5));
+
+        // reverse method
+        System.out.println(greet.reverse());
     }
 }
